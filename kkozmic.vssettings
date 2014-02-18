@@ -1,5 +1,5 @@
 <UserSettings>
-	<ApplicationIdentity version="11.0"/>
+	<ApplicationIdentity version="12.0"/>
 	<ToolsOptions>
 		<ToolsOptionsCategory name="Environment" RegisteredName="Environment"/>
 	</ToolsOptions>
@@ -7,6 +7,7 @@
 		<Category name="Environment_FontsAndColors" Category="{1EDA5DD4-927A-43a7-810E-7FD247D0DA1D}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_FontsAndColors" PackageName="Visual Studio Environment Package">
 			<PropertyValue name="Version">2</PropertyValue>
 			<FontsAndColors Version="2.0">
+				<Theme Id="{DE3DBBCD-F642-433C-8353-8F1DF4370ABA}"/>
 				<Categories>
 					<Category GUID="{00CCEE86-3140-4E06-A65A-A92665A40D6F}" FontIsDefault="Yes">
 						<Items>
@@ -15,10 +16,8 @@
 					</Category>
 					<Category GUID="{24908F31-6647-42B7-BEE5-556C73736824}" FontIsDefault="Yes">
 						<Items>
-							<Item Name="Selected Text" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
-							<Item Name="Inactive Selected Text" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
-							<Item Name="CSS Keyword" Foreground="0x0100000F" Background="0x02000000" BoldFont="No"/>
 							<Item Name="CSS Comment" Foreground="0x01000005" Background="0x02000000" BoldFont="No"/>
+							<Item Name="CSS Keyword" Foreground="0x0100000F" Background="0x02000000" BoldFont="No"/>
 							<Item Name="CSS Selector" Foreground="0x001515A3" Background="0x02000000" BoldFont="No"/>
 							<Item Name="CSS Property Name" Foreground="0x0100000C" Background="0x02000000" BoldFont="No"/>
 							<Item Name="CSS Property Value" Foreground="0x0100000F" Background="0x02000000" BoldFont="No"/>
@@ -31,6 +30,8 @@
 							<Item Name="HTML Operator" Foreground="0x0100000F" Background="0x02000000" BoldFont="No"/>
 							<Item Name="HTML Server-Side Script" Foreground="0x00000000" Background="0x0062EEFF" BoldFont="No"/>
 							<Item Name="HTML Tag Delimiter" Foreground="0x0100000F" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Selected Text" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
+							<Item Name="Inactive Selected Text" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
 						</Items>
 					</Category>
 					<Category GUID="{2E5C7FFD-9738-4A39-9816-B10231B82AE6}" FontIsDefault="Yes">
@@ -176,13 +177,13 @@
 							<Item Name="urlformat" Foreground="0x00FF4646" Background="0x01000001" BoldFont="No"/>
 							<Item Name="Selected Text" Foreground="0x02000000" Background="0x00D254D6" BoldFont="No"/>
 							<Item Name="Inactive Selected Text" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
-							<Item Name="CSS Keyword" Foreground="0x00BEF4FC" Background="0x02000000" BoldFont="Yes"/>
 							<Item Name="CSS Comment" Foreground="0x00FFFF00" Background="0x02000000" BoldFont="Yes"/>
+							<Item Name="CSS Keyword" Foreground="0x00BEF4FC" Background="0x02000000" BoldFont="Yes"/>
 							<Item Name="CSS Selector" Foreground="0x00BEF4FC" Background="0x02000000" BoldFont="Yes"/>
 							<Item Name="CSS Property Name" Foreground="0x00BEF4FC" Background="0x02000000" BoldFont="Yes"/>
 							<Item Name="CSS Property Value" Foreground="0x00FF9595" Background="0x02000000" BoldFont="Yes"/>
 							<Item Name="CSS String Value" Foreground="0x00FFFF00" Background="0x02000000" BoldFont="Yes"/>
-							<Item Name="HTML Attribute" Foreground="0x00FFFFFF" Background="0x02000000" BoldFont="Yes"/>
+							<Item Name="HTML Attribute" Foreground="0x001C87BB" Background="0x02000000" BoldFont="Yes"/>
 							<Item Name="HTML Attribute Value" Foreground="0x005CC2A5" Background="0x02000000" BoldFont="Yes"/>
 							<Item Name="HTML Comment" Foreground="0x00C0C0C0" Background="0x02000000" BoldFont="Yes"/>
 							<Item Name="HTML Element Name" Foreground="0x0064BCE8" Background="0x02000000" BoldFont="Yes"/>
@@ -192,7 +193,6 @@
 							<Item Name="HTML Tag Delimiter" Foreground="0x02000000" Background="0x02000000" BoldFont="Yes"/>
 							<Item Name="RegularExpressionClassificationFormat" Foreground="0x000000D7" Background="0x01000001" BoldFont="No"/>
 							<Item Name="SourceLineClassificationFormat" Foreground="0x00EEA4D0" Background="0x01000001" BoldFont="No"/>
-							<Item Name="Razor Code" Foreground="0x02000000" Background="0x00210C10" BoldFont="No"/>
 						</Items>
 					</Category>
 					<Category GUID="{9973EFDF-317D-431C-8BC1-5E88CBFD4F7F}" FontIsDefault="Yes">
@@ -293,6 +293,11 @@
 						<Items>
 							<Item Name="Selected Text" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
 							<Item Name="Inactive Selected Text" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
+						</Items>
+					</Category>
+					<Category GUID="{FA937F7B-C0D2-46B8-9F10-A7A92642B384}" FontIsDefault="Yes">
+						<Items>
+							<Item Name="Artboard Background" Foreground="0x02000000" Background="0x02000000" BoldFont="No"/>
 						</Items>
 					</Category>
 					<Category GUID="{FF349800-EA43-46C1-8C98-878E78F46501}" FontName="Consolas" FontSize="11" CharSet="0" FontIsDefault="No">
